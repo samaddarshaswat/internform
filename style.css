@@ -139,7 +139,11 @@ img {
     /* background-color: transparent; */
     transition: width .35s;
     -webkit-transition: width .35s;
-    overflow: hidden
+    overflow: hidden;
+    opacity: 50%;
+}
+.button:hover {
+    opacity: 100%;
 }
 
 a:hover {
